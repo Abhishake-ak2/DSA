@@ -9,17 +9,7 @@ struct node
 }*head,*newnode,*prenode,*ptr;
 
 void llmake()
-{ int i=1;
-  char j;
-  head=(struct node *)malloc(sizeof(struct node));
-  printf("Input data for node %d : ",i);
-  scanf("%d",&head->data);
-  head->nxt=NULL;
-  prenode=head;()
-{ int i=1;
-  ptr=head;
-  printf("\n\nLinked list is :-\n");
-  do
+{ 
   { printf("---------------------------------\n");
     printf("| Node | Data | Address |  Next |\n");
     printf("---------------------------------\n");
